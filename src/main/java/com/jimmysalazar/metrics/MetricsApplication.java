@@ -34,8 +34,7 @@ public class MetricsApplication {
         counter.increment(200);
 
         System.out.printf("Número de empleados %f",counter.count());
-        foo();
-        System.out.printf("Número de empleados %f",counter.count());
+        //foo();
     }
 
     private static void foo() {
